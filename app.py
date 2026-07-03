@@ -13,7 +13,7 @@ with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # -------------------- Title --------------------
-st.set_page_config(page_title="Employee Attrition Prediction")
+st.set_page_config(page_title=" Employee Attrition Prediction System")
 st.title("Employee Attrition Prediction")
 st.write("Enter employee details below:")
 
